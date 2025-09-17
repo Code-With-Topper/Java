@@ -1,3 +1,7 @@
+# 📘 Java Programs (1–42) with Outputs
+
+---
+
 ## **1. Hello World**
 
 ```java
@@ -6,6 +10,12 @@ class HelloWorld {
         System.out.println("Hello World");
     }
 }
+```
+
+**Output**
+
+```
+Hello World
 ```
 
 ---
@@ -24,6 +34,15 @@ class Arithmetic {
 }
 ```
 
+**Output**
+
+```
+Addition = 15
+Subtraction = 5
+Multiplication = 50
+Division = 2
+```
+
 ---
 
 ## **3. Simple Interest**
@@ -36,6 +55,12 @@ class SimpleInterest {
         System.out.println("Simple Interest = " + si);
     }
 }
+```
+
+**Output**
+
+```
+Simple Interest = 100.0
 ```
 
 ---
@@ -54,6 +79,12 @@ class OddEven {
 }
 ```
 
+**Output**
+
+```
+7 is Odd
+```
+
 ---
 
 ## **5. Area of Circle**
@@ -66,6 +97,12 @@ class AreaCircle {
         System.out.println("Area of Circle = " + area);
     }
 }
+```
+
+**Output**
+
+```
+Area of Circle = 78.53981633974483
 ```
 
 ---
@@ -87,6 +124,12 @@ class LargestThree {
 }
 ```
 
+**Output**
+
+```
+Largest = 25
+```
+
 ---
 
 ## **7. Pattern Printing**
@@ -105,7 +148,7 @@ class Pattern {
 }
 ```
 
-*(Output: triangle pattern)*
+**Output**
 
 ```
 * 
@@ -130,6 +173,12 @@ class SimpleIf {
 }
 ```
 
+**Output**
+
+```
+You are eligible to vote.
+```
+
 ---
 
 ## **9. If..Else Statement**
@@ -144,6 +193,12 @@ class IfElse {
             System.out.println("Odd Number");
     }
 }
+```
+
+**Output**
+
+```
+Odd Number
 ```
 
 ---
@@ -163,6 +218,12 @@ class NestedIf {
         }
     }
 }
+```
+
+**Output**
+
+```
+25 is Positive Odd
 ```
 
 ---
@@ -186,6 +247,12 @@ class IfElseIf {
 }
 ```
 
+**Output**
+
+```
+Grade B
+```
+
 ---
 
 ## **12. While Loop**
@@ -202,6 +269,16 @@ class WhileLoop {
 }
 ```
 
+**Output**
+
+```
+1
+2
+3
+4
+5
+```
+
 ---
 
 ## **13. For Loop**
@@ -214,6 +291,16 @@ class ForLoop {
         }
     }
 }
+```
+
+**Output**
+
+```
+1
+2
+3
+4
+5
 ```
 
 ---
@@ -230,6 +317,16 @@ class DoWhileLoop {
         } while (i <= 5);
     }
 }
+```
+
+**Output**
+
+```
+1
+2
+3
+4
+5
 ```
 
 ---
@@ -255,6 +352,12 @@ class SwitchCase {
 }
 ```
 
+**Output**
+
+```
+Wednesday
+```
+
 ---
 
 ## **16. Constructor**
@@ -264,7 +367,6 @@ class Student {
     String name;
     int age;
 
-    // Constructor
     Student(String n, int a) {
         name = n;
         age = a;
@@ -281,6 +383,12 @@ class Student {
 }
 ```
 
+**Output**
+
+```
+Name: Rahul, Age: 20
+```
+
 ---
 
 ## **17. Constructor Overloading**
@@ -290,12 +398,12 @@ class Student {
     String name;
     int age;
 
-    Student() {  // Default constructor
+    Student() {
         name = "Unknown";
         age = 0;
     }
 
-    Student(String n, int a) { // Parameterized
+    Student(String n, int a) {
         name = n;
         age = a;
     }
@@ -311,6 +419,13 @@ class Student {
         s2.display();
     }
 }
+```
+
+**Output**
+
+```
+Name: Unknown, Age: 0
+Name: Riya, Age: 22
 ```
 
 ---
@@ -331,6 +446,13 @@ class Dog extends Animal {
         d.bark();
     }
 }
+```
+
+**Output**
+
+```
+Animal eats food.
+Dog barks.
 ```
 
 ---
@@ -356,6 +478,14 @@ class Puppy extends Dog {
         p.weep();
     }
 }
+```
+
+**Output**
+
+```
+Animal eats food.
+Dog barks.
+Puppy weeps.
 ```
 
 ---
@@ -386,6 +516,15 @@ public class TestInheritance {
 }
 ```
 
+**Output**
+
+```
+Animal eats food.
+Dog barks.
+Animal eats food.
+Cat meows.
+```
+
 ---
 
 ## **21. Method Overloading (Area)**
@@ -413,6 +552,14 @@ class Area {
 }
 ```
 
+**Output**
+
+```
+Area of Circle: 78.5
+Area of Square: 16
+Area of Rectangle: 15
+```
+
 ---
 
 ## **22. Scanner Class**
@@ -433,6 +580,14 @@ class ScannerExample {
         System.out.println("Hello " + name + ", Age: " + age);
     }
 }
+```
+
+**Output (example input: John, 21)**
+
+```
+Enter name: John
+Enter age: 21
+Hello John, Age: 21
 ```
 
 ---
@@ -469,6 +624,16 @@ class Menu {
 }
 ```
 
+**Output (example)**
+
+```
+1. Add  2. Subtract  3. Exit
+1
+Enter two numbers:
+5 3
+Sum = 8
+```
+
 ---
 
 ## **24. Initialization of Array**
@@ -483,6 +648,15 @@ class ArrayInit {
         }
     }
 }
+```
+
+**Output**
+
+```
+10
+20
+30
+40
 ```
 
 ---
@@ -504,6 +678,14 @@ class MultiArray {
 }
 ```
 
+**Output**
+
+```
+1 2
+3 4
+5 6
+```
+
 ---
 
 ## **26. Addition of Array**
@@ -520,6 +702,14 @@ class AddArray {
         }
     }
 }
+```
+
+**Output**
+
+```
+5
+7
+9
 ```
 
 ---
@@ -540,6 +730,14 @@ class SubArray {
 }
 ```
 
+**Output**
+
+```
+6
+15
+24
+```
+
 ---
 
 ## **28. Multiplication of Array**
@@ -556,6 +754,14 @@ class MulArray {
         }
     }
 }
+```
+
+**Output**
+
+```
+10
+18
+28
 ```
 
 ---
@@ -579,6 +785,12 @@ public class TestAbstract {
 }
 ```
 
+**Output**
+
+```
+Drawing Circle
+```
+
 ---
 
 ## **30. Interface**
@@ -598,6 +810,12 @@ public class TestInterface {
         a.sound();
     }
 }
+```
+
+**Output**
+
+```
+Dog barks
 ```
 
 ---
@@ -626,6 +844,14 @@ public class TestSuper {
 }
 ```
 
+**Output**
+
+```
+Animal constructor
+Animal eats
+Dog eats
+```
+
 ---
 
 ## **32. Exception Handling**
@@ -642,6 +868,13 @@ class ExceptionDemo {
         }
     }
 }
+```
+
+**Output**
+
+```
+Error: java.lang.ArithmeticException: / by zero
+Finally block executed.
 ```
 
 ---
@@ -662,6 +895,16 @@ class MyThread extends Thread {
 }
 ```
 
+**Output (example)**
+
+```
+Thread running: 1
+Thread running: 2
+Thread running: 3
+Thread running: 4
+Thread running: 5
+```
+
 ---
 
 ## **34. String Functions**
@@ -678,6 +921,15 @@ class StringDemo {
 }
 ```
 
+**Output**
+
+```
+Length: 10
+Upper: HELLO JAVA
+Substring: Hello
+Contains 'Java': true
+```
+
 ---
 
 ## **35. Math Functions**
@@ -691,6 +943,15 @@ class MathDemo {
         System.out.println("Max: " + Math.max(10, 20));
     }
 }
+```
+
+**Output (example)**
+
+```
+Square root: 5.0
+Power: 8.0
+Random: 0.3748293
+Max: 20
 ```
 
 ---
@@ -716,6 +977,14 @@ class UtilityDemo {
 }
 ```
 
+**Output (example)**
+
+```
+Date: Mon Sep 17 12:34:56 IST 2025
+Random: 42
+ArrayList: [Apple, Banana]
+```
+
 ---
 
 ## **37. IO Package**
@@ -738,6 +1007,12 @@ class IODemo {
 }
 ```
 
+**Output**
+
+```
+Hello, this is a file!
+```
+
 ---
 
 ## **38. Applet Message**
@@ -752,6 +1027,12 @@ public class HelloApplet extends Applet {
         g.drawString("Hello, Applet!", 100, 100);
     }
 }
+```
+
+**Output**
+
+```
+(Applet window displaying "Hello, Applet!" text)
 ```
 
 ---
@@ -774,6 +1055,12 @@ public class ConfigApplet extends Applet {
         g.drawString(msg, 50, 100);
     }
 }
+```
+
+**Output**
+
+```
+(Applet window displaying "Welcome to Java Applet!" text)
 ```
 
 ---
@@ -803,6 +1090,12 @@ class KeyEventDemo extends Frame implements KeyListener {
         new KeyEventDemo();
     }
 }
+```
+
+**Output**
+
+```
+(Window displays "Key Pressed" / "Key Released" / "Key Typed" when keys are used)
 ```
 
 ---
@@ -836,6 +1129,12 @@ class MouseEventDemo extends Frame implements MouseListener {
 }
 ```
 
+**Output**
+
+```
+(Window displays "Mouse Clicked", "Mouse Entered", etc. depending on actions)
+```
+
 ---
 
 ## **42. Graphics Class**
@@ -855,4 +1154,8 @@ public class GraphicsDemo extends Applet {
 }
 ```
 
----
+**Output**
+
+```
+(Applet window showing red rectangle, filled oval, and line)
+```
