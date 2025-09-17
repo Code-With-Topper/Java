@@ -1,3 +1,262 @@
+## **1. Hello World**
+
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+---
+
+## **2. Arithmetic Operations**
+
+```java
+class Arithmetic {
+    public static void main(String[] args) {
+        int a = 10, b = 5;
+        System.out.println("Addition = " + (a + b));
+        System.out.println("Subtraction = " + (a - b));
+        System.out.println("Multiplication = " + (a * b));
+        System.out.println("Division = " + (a / b));
+    }
+}
+```
+
+---
+
+## **3. Simple Interest**
+
+```java
+class SimpleInterest {
+    public static void main(String[] args) {
+        double p = 1000, r = 5, t = 2;
+        double si = (p * r * t) / 100;
+        System.out.println("Simple Interest = " + si);
+    }
+}
+```
+
+---
+
+## **4. Odd or Even**
+
+```java
+class OddEven {
+    public static void main(String[] args) {
+        int num = 7;
+        if (num % 2 == 0)
+            System.out.println(num + " is Even");
+        else
+            System.out.println(num + " is Odd");
+    }
+}
+```
+
+---
+
+## **5. Area of Circle**
+
+```java
+class AreaCircle {
+    public static void main(String[] args) {
+        double r = 5.0;
+        double area = Math.PI * r * r;
+        System.out.println("Area of Circle = " + area);
+    }
+}
+```
+
+---
+
+## **6. Largest of Three Numbers**
+
+```java
+class LargestThree {
+    public static void main(String[] args) {
+        int a = 10, b = 25, c = 15;
+
+        if (a >= b && a >= c)
+            System.out.println("Largest = " + a);
+        else if (b >= a && b >= c)
+            System.out.println("Largest = " + b);
+        else
+            System.out.println("Largest = " + c);
+    }
+}
+```
+
+---
+
+## **7. Pattern Printing**
+
+```java
+class Pattern {
+    public static void main(String[] args) {
+        int n = 5;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+*(Output: triangle pattern)*
+
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+```
+
+---
+
+## **8. Simple If Statement**
+
+```java
+class SimpleIf {
+    public static void main(String[] args) {
+        int age = 20;
+        if (age > 18) {
+            System.out.println("You are eligible to vote.");
+        }
+    }
+}
+```
+
+---
+
+## **9. If..Else Statement**
+
+```java
+class IfElse {
+    public static void main(String[] args) {
+        int num = 15;
+        if (num % 2 == 0)
+            System.out.println("Even Number");
+        else
+            System.out.println("Odd Number");
+    }
+}
+```
+
+---
+
+## **10. Nested If Statement**
+
+```java
+class NestedIf {
+    public static void main(String[] args) {
+        int num = 25;
+
+        if (num > 0) {
+            if (num % 2 == 0)
+                System.out.println(num + " is Positive Even");
+            else
+                System.out.println(num + " is Positive Odd");
+        }
+    }
+}
+```
+
+---
+
+## **11. If..Else..If Statement**
+
+```java
+class IfElseIf {
+    public static void main(String[] args) {
+        int marks = 75;
+
+        if (marks >= 90)
+            System.out.println("Grade A");
+        else if (marks >= 75)
+            System.out.println("Grade B");
+        else if (marks >= 50)
+            System.out.println("Grade C");
+        else
+            System.out.println("Fail");
+    }
+}
+```
+
+---
+
+## **12. While Loop**
+
+```java
+class WhileLoop {
+    public static void main(String[] args) {
+        int i = 1;
+        while (i <= 5) {
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+```
+
+---
+
+## **13. For Loop**
+
+```java
+class ForLoop {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+```
+
+---
+
+## **14. Do While Loop**
+
+```java
+class DoWhileLoop {
+    public static void main(String[] args) {
+        int i = 1;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 5);
+    }
+}
+```
+
+---
+
+## **15. Switch Case**
+
+```java
+class SwitchCase {
+    public static void main(String[] args) {
+        int day = 3;
+
+        switch (day) {
+            case 1: System.out.println("Monday"); break;
+            case 2: System.out.println("Tuesday"); break;
+            case 3: System.out.println("Wednesday"); break;
+            case 4: System.out.println("Thursday"); break;
+            case 5: System.out.println("Friday"); break;
+            case 6: System.out.println("Saturday"); break;
+            case 7: System.out.println("Sunday"); break;
+            default: System.out.println("Invalid Day");
+        }
+    }
+}
+```
+
+---
+
 ## **16. Constructor**
 
 ```java
